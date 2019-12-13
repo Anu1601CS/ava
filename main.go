@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/fatih/color"
+	"rsc.io/quote"
+)
 
-func main(){
+func main() {
 	fmt.Println("Hello Bitch!")
+	color.Cyan(quote.Hello())
 }
